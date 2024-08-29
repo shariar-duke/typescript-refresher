@@ -1,7 +1,15 @@
-let multipleTypes: string | null = "Shariar";
+class Car {
+  name: string;
 
-let multipleType: string | null = null;
+  constructor(input: string) {
+    this.name = input;
+  }
+}
 
-let multipleTypess: string | null = " ";
+const bmw = new Car("BMW");
 
-// eta holo eta variable er multiple value thakte pare . first ert tay jmn value stirng o null hote pare . ei dutar j kno ekta dilei r null hbe na
+if (bmw instanceof Car) {
+  console.log("yes you are right");
+}
+
+console.log(bmw);
