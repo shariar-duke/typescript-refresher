@@ -1,10 +1,13 @@
-type MyNumber = number;
+type Employe = {
+  id: number;
+  name: string;
+  email: string;
+  salary: number;
+};
 
-const socks: MyNumber = 25;
-
-// type MyNumber = number;
-// //  eta dia ekta type define korlam
-
-// // Then ekta variable a ei type ta dibo dia or vitor ekta number assign korbo
-
-// const socks: MyNumber = 25;
+const employee: Employe = {
+  id: 1,
+  name: "Shariar",
+  email: "shariarmahmud225@gmail.com",
+  salary: 2000,
+};
