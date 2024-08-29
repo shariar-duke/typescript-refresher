@@ -1,11 +1,10 @@
-function sum(a: number, b?: number): number {
-  if (b) {
-    return a + b;
-  }
+type MyNumber = number;
 
-  return a;
-}
+const socks: MyNumber = 25;
 
-// optional peramter while calling function
+// type MyNumber = number;
+// //  eta dia ekta type define korlam
 
-sum(3 + 4);
+// // Then ekta variable a ei type ta dibo dia or vitor ekta number assign korbo
+
+// const socks: MyNumber = 25;
