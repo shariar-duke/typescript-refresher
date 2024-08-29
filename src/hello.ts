@@ -1,6 +1,11 @@
-function sum(a: number, b: number): string {
-  return "shariar";
+function sum(a: number, b?: number): number {
+  if (b) {
+    return a + b;
+  }
+
+  return a;
 }
 
-// ekhne return type :string dise jnno return shariar korte partse ekta string return korte partse otherwise ei return kora possible cilo na
-// return :number dile return number a krote hbe
+// optional peramter while calling function
+
+sum(3 + 4);
