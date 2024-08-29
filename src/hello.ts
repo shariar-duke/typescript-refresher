@@ -1,7 +1,3 @@
-const hello = "hello";
+let count: number = "40";
 
-function sayHello() {
-  return `${hello} world`;
-}
-
-console.log(sayHello());
+// typeScirt will restrict here because we are declaring the variable as number but giving it a string value
