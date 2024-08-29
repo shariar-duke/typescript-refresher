@@ -1,3 +1,5 @@
-let count: number = "40";
+// let x: any = "Shariar";
+// let x:any=10
+let x: any = false;
 
-// typeScirt will restrict here because we are declaring the variable as number but giving it a string value
+// Any data type can be declared if we use any
