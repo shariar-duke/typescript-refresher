@@ -1,11 +1,6 @@
-enum Status {
-  NOT_STARTED = "stop",
-  IN_PROGRESS = "progress",
-  COMPLETED = "done",
+function sum(a: number, b: number): string {
+  return "shariar";
 }
 
-let statuss: Status = Status.COMPLETED;
-
-console.log(statuss);
-
-// ekhne statuss er type Status . tar mane er value ta hote hbe Status objec ter jno ekta value tai eta Status.COMPLETED diyeche
+// ekhne return type :string dise jnno return shariar korte partse ekta string return korte partse otherwise ei return kora possible cilo na
+// return :number dile return number a krote hbe
