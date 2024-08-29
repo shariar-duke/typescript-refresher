@@ -1,15 +1,6 @@
-class Car {
-  name: string;
+let a: any = 34;
 
-  constructor(input: string) {
-    this.name = input;
-  }
-}
+// Convert 'a' to a string explicitly
+let len: number = a.toString().indexOf("3");
 
-const bmw = new Car("BMW");
-
-if (bmw instanceof Car) {
-  console.log("yes you are right");
-}
-
-console.log(bmw);
+console.log(len); // Outputs: 1
