@@ -1,5 +1,7 @@
-// let x: any = "Shariar";
-// let x:any=10
-let x: any = false;
+let multipleTypes: string | null = "Shariar";
 
-// Any data type can be declared if we use any
+let multipleType: string | null = null;
+
+let multipleTypess: string | null = " ";
+
+// eta holo eta variable er multiple value thakte pare . first ert tay jmn value stirng o null hote pare . ei dutar j kno ekta dilei r null hbe na
