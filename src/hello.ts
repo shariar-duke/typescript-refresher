@@ -1,13 +1,25 @@
-function greetings<T, V>(param1: T, param2: V) {
-  console.log(`Hello ${param1}. Type of ${param1} is ${typeof param1} `);
+interface GenericInterface<T> {
+  value: T;
 }
 
-greetings(
-  {
-    name: "Shariar",
-    age: 29,
-  },
-  "Duke"
-);
+class MyClass implements GenericInterface<string> {
+  value: string = "Hello";
+}
 
-// a funcation with two generic peramter
+class MyClass2 implements GenericInterface<number> {
+  value: number = 100;
+}
+
+// interface GenericInterface<T> {
+//     value: T;
+//   }
+
+// Amra ekta generic type dia interface banailam . tar mane holo ei interface k implement kore jokhn jokhn class banano jabe tokhn
+// type ta oi class bananor somoy dawa jabe tate ei value er jnno ei class implment hbe
+
+class MyClass3 implements GenericInterface<string> {
+  value: string = "Duke";
+}
+
+// ei j ekhne ei kaj ta holo jokhn amra class create kortese oi GenericInterface k implement kore tokhn amra oi type take dite partse
+// and jokhn class a oi property ta dibo tokhn oi type ta automatically nia nibe
